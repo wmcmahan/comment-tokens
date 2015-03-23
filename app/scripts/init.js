@@ -1,5 +1,5 @@
 require.config({
-    baseUrl: "/scripts",
+    baseUrl: "../scripts",
 
     deps: ['main'],
 
@@ -20,12 +20,10 @@ require.config({
     },
 
     paths: {
-        'jquery': '../bower_components/jquery/jquery',
-        'backbone': '../bower_components/backbone/backbone',
-        'underscore': '../bower_components/underscore/underscore',
-        'text': '../bower_components/requirejs-text/text',
-        'react': '../bower_components/react/react',
-        'react.backbone': '../bower_components/react.backbone/react.backbone',
+        'jquery': '../../bower_components/jquery/jquery',
+        'backbone': '../../bower_components/backbone/backbone',
+        'underscore': '../../bower_components/underscore/underscore',
+        'text': '../../bower_components/requirejs-text/text',
         'tmpl': "../partials"
     }
 });

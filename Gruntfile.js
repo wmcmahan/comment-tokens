@@ -37,7 +37,6 @@ module.exports = function (grunt) {
                     
                     'test/spec/{,**/}*.js'
                 ],
-                tasks: ['exec'],
                 options: {
                     livereload: true
                 }
@@ -119,7 +118,7 @@ module.exports = function (grunt) {
                 imagesDir: '<%= yeoman.app %>/images',
                 javascriptsDir: '<%= yeoman.app %>/scripts',
                 fontsDir: '<%= yeoman.app %>/styles/fonts',
-                importPath: 'app/bower_components',
+                importPath: '<%= yeoman.app %>/bower_components',
                 relativeAssets: true
             },
             dist: {},
@@ -264,7 +263,6 @@ module.exports = function (grunt) {
             'compass:server',
             'connect:testserver',
             'express:dev',
-            'exec',
             'open',
             'watch'
         ]);
