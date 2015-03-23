@@ -1,0 +1,30 @@
+body { margin: 0; }
+
+form {
+
+	textarea {
+		border: 0;
+		outline: none;
+		width: 100%;
+		margin: 0;
+		padding: 10px;
+		min-height: 15vh;
+		background: #eee;
+		font-size: 18px;
+	}
+
+	button {
+		background: #222;
+		border: none;
+		color: #fff;
+		width: 100%;
+		font-size: 18px;
+		padding: 10px;
+		margin: 0 0 30px;
+	}
+
+	pre {
+		font-size: 16px;
+		padding: 0 25px;
+	}
+}
