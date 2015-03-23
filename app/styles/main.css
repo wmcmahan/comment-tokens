@@ -12,6 +12,7 @@ form textarea {
   background: #eee;
   font-size: 18px;
 }
+
 form button {
   background: #222;
   border: none;
@@ -21,6 +22,7 @@ form button {
   padding: 10px;
   margin: 0 0 30px;
 }
+
 form pre {
   font-size: 16px;
   padding: 0 25px;
