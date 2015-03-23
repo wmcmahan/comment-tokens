@@ -269,7 +269,7 @@ module.exports = function (grunt) {
     ]);
 
     grunt.registerTask('build', [
-        'compass:dist',
+        'compass',
         'useminPrepare',
         'requirejs',
         'imagemin',
