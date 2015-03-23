@@ -14,6 +14,12 @@ define([
 
 	'use strict';
 
+	/**
+	 * InputView Class:
+	 * Consumes String and creates CommentModels for each match
+	 * Renders newly formed JSON string view
+	 */
+
 	var InputView = Backbone.View.extend({
 		tagName: 'form',
 		template: _.template(comment_tpl),

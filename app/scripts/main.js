@@ -8,5 +8,9 @@ define([
     
     'use strict';
 
+    /**
+	 * Append Comment Post Field to DOM
+	 */
+
 	$('#content').append((new PostInputView()).render().el);
 });

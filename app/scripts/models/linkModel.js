@@ -2,6 +2,14 @@ define(['backbone'], function (Backbone) {
     
     'use strict';
 
+    /**
+	 * LinkModel Class:
+	 * Fetches and stores scraped site titles
+	 
+	 * @param {arr} matches
+	 * @param {object} {parse:true}
+	 */
+
 	var LinkModel = Backbone.Collection.extend({
 		url: '/scrape',
 		initialize: function (opt) {

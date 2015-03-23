@@ -2,6 +2,14 @@ define(['backbone'], function (Backbone) {
     
     'use strict';
 
+    /**
+	 * MentionsModel Class:
+	 * Cleans and stores found mentions matches
+	 
+	 * @param {obj} matches
+	 * @param {object} {parse:true}
+	 */
+
 	var MentionsModel = Backbone.Model.extend({
 		parse: function (data) {
 			var data = data || { mentions: []};

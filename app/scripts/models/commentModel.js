@@ -12,6 +12,11 @@ define([
     
     'use strict';
 
+    /**
+	 * CommentModel Class:
+	 * Creates and stores {model} for each match
+	 */
+
 	var CommentModel = Backbone.Model.extend({
 		model: {
 			mentions: MentionsModel,

@@ -2,6 +2,11 @@ define([ 'backbone'], function (Backbone) {
 
 	'use strict';
 
+	/**
+	 * JSONStringView Class: renders JSON string
+	 * @param {model} new CommentModel
+	 */
+
 	var JSONStringView = Backbone.View.extend({
 		template: _.template('<pre><%= json %></pre>'),
 		initialize: function () {

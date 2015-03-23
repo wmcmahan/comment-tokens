@@ -2,7 +2,15 @@ define(['backbone'], function (Backbone) {
     
     'use strict';
 
-	var MatchModel = Backbone.Model.extend({
+    /**
+	 * EmoticonsModel Class:
+	 * Cleans and stores found emoticon matches
+	 
+	 * @param {objec} matches
+	 * @param {object} {parse:true}
+	 */
+
+	var EmoticonsModel = Backbone.Model.extend({
 		parse: function (data, opt) {
 			var data = data || { emoticon: [] };
 			var tooLong = [];
@@ -23,5 +31,5 @@ define(['backbone'], function (Backbone) {
 		}
 	});
 
-	return MatchModel;
+	return EmoticonsModel;
 });

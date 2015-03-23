@@ -25,7 +25,10 @@ app.use(function(req, res, next){
 app.use(express.static( path.join( __dirname, '../app') ));
 app.use(express.static( path.join( __dirname, '../.tmp') ));
 
-// scape page for title
+/**
+ * Scrape link URL for titles
+ * @query {arr} /?url=<url>,<url>
+ */
 app.get('/scrape', function(req, res, next) {
 
 	var scrapePage = function (url, cb) {
@@ -52,7 +55,6 @@ app.get('/scrape', function(req, res, next) {
 	}
 });
 
-// route index.html
 app.get('/', function(req, res){
 	res.sendfile( path.join( __dirname, '../app/index.html' ) );
 });
