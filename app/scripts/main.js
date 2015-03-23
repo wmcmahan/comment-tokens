@@ -5,10 +5,10 @@ define([
 	Backbone,
 	PostInputView
 ) {
-    
-    'use strict';
 
-    /**
+	'use strict';
+
+	/**
 	 * Append Comment Post Field to DOM
 	 */
 

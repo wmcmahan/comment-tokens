@@ -1,8 +1,8 @@
 define(['backbone'], function (Backbone) {
-    
-    'use strict';
 
-    /**
+	'use strict';
+
+	/**
 	 * MentionsModel Class:
 	 * Cleans and stores found mentions matches
 	 
@@ -18,7 +18,7 @@ define(['backbone'], function (Backbone) {
 				data.mentions[i] = data.mentions[i].replace('@', '');
 			}
 			return data;
-	    },
+		},
 		toJSON: function() {
 			return _.clone(this.get('mentions'));
 		}

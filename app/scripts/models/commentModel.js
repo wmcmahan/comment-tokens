@@ -9,10 +9,10 @@ define([
 	EmoticonsModel,
 	LinkModel
 ) {
-    
-    'use strict';
 
-    /**
+	'use strict';
+
+	/**
 	 * CommentModel Class:
 	 * Creates and stores {model} for each match
 	 */

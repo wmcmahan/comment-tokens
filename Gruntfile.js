@@ -136,9 +136,7 @@ module.exports = function (grunt) {
                 options: {
                     baseUrl: 'app/scripts',
                     optimize: 'none',
-                    paths: {
-                        'templates': '../../.tmp/scripts/templates'
-                    },
+                    dir: 'dist',
                     preserveLicenseComments: false,
                     useStrict: true,
                     wrap: true,
@@ -244,10 +242,6 @@ module.exports = function (grunt) {
         }
 
     });
-
-    // grunt.registerTask('createDefaultTemplate', function () {
-    //     grunt.file.write('.tmp/scripts/templates.js', 'this.JST = this.JST || {};');
-    // });
 
     // starts express server with live testing via testserver
     grunt.registerTask('default', function (target) {

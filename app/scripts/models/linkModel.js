@@ -1,8 +1,8 @@
 define(['backbone'], function (Backbone) {
-    
-    'use strict';
 
-    /**
+	'use strict';
+
+	/**
 	 * LinkModel Class:
 	 * Fetches and stores scraped site titles
 	 

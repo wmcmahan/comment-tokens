@@ -1,8 +1,8 @@
 define(['backbone'], function (Backbone) {
-    
-    'use strict';
 
-    /**
+	'use strict';
+
+	/**
 	 * EmoticonsModel Class:
 	 * Cleans and stores found emoticon matches
 	 
@@ -25,7 +25,7 @@ define(['backbone'], function (Backbone) {
 			data.emoticons = _.without(data.emoticons, tooLong.join());
 			
 			return data;
-	    },
+		},
 		toJSON: function() {
 			return _.clone(this.get('emoticons'));
 		}
