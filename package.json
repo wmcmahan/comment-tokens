@@ -43,7 +43,7 @@
     "intern": "2.2.2",
     "sinon": "1.12.2"
   },
-    "scripts": {
+  "scripts": {
     "postinstall": "bower install && grunt build"
   },
   "engines": {
